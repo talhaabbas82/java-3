@@ -51,28 +51,28 @@ if (num % 5 === 0){
 // assignment no 6 check the value get remainder when divide by 2;
 
 num = prompt("enter a number to get the remainder when divide by 2 ");
-if (num % 2 === 0){
-    alert("this value is remainder by 2");
+if (num % 2 == 0){
+    console.log("this value is remainder by 2");
 } else {
-    alert("this value is not remainder");
+    console.log("this value is not remainder");
 }
 
 // assignment no 7 check the value get remainder when divide by 3;
 
 num = prompt("enter a number to get the remainder when divide by 3");
-if (num % 3 === 0){
-    alert("this value is remainder by 3");
+if (num % 3 == 0){
+    console.log("this value is remainder by 3");
 } else {
-    alert("this value is not remainder");
+    console.log("this value is not remainder");
 }
 
 // assignment no 8 check the value get remainder when divide by 5;
 
 num = prompt("enter the number when the remainder is divide by 5");
-if (num % 5 === 0){
-    alert("this value is remainder by 5");
+if (num % 5 == 0){
+    console.log("this value is remainder by 5");
 } else {
-    alert("this value is not remainder");
+    console.log("this value is not remainder");
 }
 
 
